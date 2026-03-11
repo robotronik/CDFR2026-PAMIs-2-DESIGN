@@ -1089,6 +1089,28 @@
 			)
 		)
 	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 176.53 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1437661b-7471-41b8-b022-0b4ddb8d8aaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.619 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SERVO_1"
 		(shape input)
 		(at 176.53 101.6 0)
@@ -1151,6 +1173,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALL_A2"
+		(shape input)
+		(at 110.49 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5623156f-31d8-4d98-93ef-6219b9f184be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.7638 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1221,6 +1265,50 @@
 			)
 		)
 	)
+	(global_label "BATTERY_LEVEL"
+		(shape input)
+		(at 110.49 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6372486-cae1-4108-ac39-43d751204547")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.293 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_ALARM1"
+		(shape input)
+		(at 110.49 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b895b123-0627-40a9-b314-9e52545018df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.861 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM_B"
 		(shape input)
 		(at 176.53 81.28 0)
@@ -1265,6 +1353,28 @@
 			)
 		)
 	)
+	(global_label "HALL_B2"
+		(shape input)
+		(at 110.49 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2e9d13c-b9ba-4942-8a30-674c4e573390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.5824 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM_A"
 		(shape input)
 		(at 176.53 78.74 0)
@@ -1287,6 +1397,50 @@
 			)
 		)
 	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 176.53 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd73d848-fe9c-44a6-8553-4dad559d8103")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.3166 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALL_A1"
+		(shape input)
+		(at 110.49 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de279a08-5450-4e4f-bd31-73db738523ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.7638 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW_Tirette"
 		(shape input)
 		(at 176.53 96.52 0)
@@ -1305,6 +1459,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DC_ALARM2"
+		(shape input)
+		(at 110.49 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f98beb50-7745-4dc9-b2c2-e08e9adbb004")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.861 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HALL_B1"
+		(shape input)
+		(at 110.49 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff431e32-66bc-4a1d-b95a-aeb84f6dcaa0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.5824 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
