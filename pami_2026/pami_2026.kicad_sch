@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 142.24 91.44)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe")
+		(property "Sheetname" "Actuators, Sensors, Utility"
+			(at 142.24 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "asu.kicad_sch"
+			(at 142.24 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pami_2026"
+				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 156.21 59.69)
 		(size 22.86 19.05)
 		(exclude_from_sim no)

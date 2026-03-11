@@ -621,6 +621,10 @@
     [
       "ed527990-c321-4ebf-9ae6-9a3c892317c7",
       "Power"
+    ],
+    [
+      "bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe",
+      "Actuators, Sensors, Utility"
     ]
   ],
   "text_variables": {}
