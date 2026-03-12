@@ -1894,6 +1894,26 @@
 		)
 		(uuid "1694beb0-da44-4376-8ad2-884211f44ecb")
 	)
+	(text_box "Ultrason"
+		(exclude_from_sim no)
+		(at 132.08 16.51 0)
+		(size 34.29 26.67)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "55da78b7-96b2-4974-a084-ce2689960c42")
+	)
 	(text_box "Connectique ESP\n"
 		(exclude_from_sim no)
 		(at 66.04 78.74 0)
@@ -2204,6 +2224,28 @@
 			)
 		)
 	)
+	(global_label "US_RX"
+		(shape input)
+		(at 142.24 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "462d4f3f-cc6c-4369-ade0-507764e1cd59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.2677 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DC_OUT_A+"
 		(shape input)
 		(at 85.09 53.34 180)
@@ -2446,6 +2488,28 @@
 			)
 		)
 	)
+	(global_label "US_TX"
+		(shape input)
+		(at 142.24 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f25f9dc9-4bfc-40fa-a865-f22260bc9e96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.5701 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 33.02 85.09 0)
@@ -2508,6 +2572,73 @@
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 142.24 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "108e88cf-d80f-4dea-8fd5-7e5fd6713269")
+		(property "Reference" "#PWR049"
+			(at 142.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 36.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "904dc748-4b5d-4b4d-a9ee-bbdb3b3923a1")
+		)
+		(instances
+			(project "pami_2026"
+				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2674,7 +2805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 39.37 36.83 0)
 			(effects
 				(font
@@ -2735,7 +2866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1db0e73f-4197-42ee-bdf2-06a45c7ed129")
-		(property "Reference" "SWPushBoot"
+		(property "Reference" "SWPushBoot1"
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -2805,7 +2936,7 @@
 		(instances
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "SWPushBoot")
+					(reference "SWPushBoot1")
 					(unit 1)
 				)
 			)
@@ -2971,7 +3102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -3039,7 +3170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:1x06_P2.54mm_Socket_Vertical_SMD_Pin1RightDown"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 120.65 71.12 0)
 			(effects
 				(font
@@ -3261,7 +3392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 39.37 20.32 0)
 			(effects
 				(font
@@ -3328,7 +3459,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -3538,7 +3669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 50.8 20.32 0)
 			(effects
 				(font
@@ -3737,7 +3868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:1x06_P2.54mm_Socket_Vertical_SMD_Pin1RightDown"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 90.17 71.12 0)
 			(effects
 				(font
@@ -3795,6 +3926,82 @@
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 147.32 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2491dd-67b5-496f-8e71-52926fde4540")
+		(property "Reference" "J8"
+			(at 148.59 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 148.59 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c9baf9b-21ad-42e2-b0f0-05e4973a5be0")
+		)
+		(pin "3"
+			(uuid "06f0e4c5-45be-4ad7-85a1-ae3567e730d9")
+		)
+		(pin "4"
+			(uuid "f34caf03-c365-489b-bd7a-b63152a78bd2")
+		)
+		(pin "1"
+			(uuid "a14d6590-9e8a-458e-9e5b-cf5ec5c36f30")
+		)
+		(instances
+			(project ""
+				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3886,7 +4093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 41.91 30.4799 0)
 			(effects
 				(font
@@ -3895,7 +4102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 37.592 29.21 90)
 			(effects
 				(font
@@ -4274,6 +4481,73 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:VCC")
+		(at 142.24 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a86201d9-1b8e-4795-8664-6ddf060b2407")
+		(property "Reference" "#PWR048"
+			(at 142.24 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 142.24 21.59 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "692e99e9-720a-4455-903b-ab5cabfd6c79")
+		)
+		(instances
+			(project "pami_2026"
+				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:VCC")
 		(at 85.09 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4363,7 +4637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 27.94 20.32 0)
 			(effects
 				(font
@@ -4496,7 +4770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 38.1 82.55 0)
 			(effects
 				(font
@@ -4569,7 +4843,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -4833,7 +5107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "470"
 			(at 30.48 30.4799 0)
 			(effects
 				(font
@@ -4842,7 +5116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 26.162 29.21 90)
 			(effects
 				(font
@@ -4910,7 +5184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 113.03 26.67 0)
 			(effects
 				(font
@@ -4971,7 +5245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2.2K"
 			(at 53.34 30.4799 0)
 			(effects
 				(font
@@ -4980,7 +5254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 49.022 29.21 90)
 			(effects
 				(font
@@ -5050,7 +5324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -5124,7 +5398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -5179,7 +5453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f72cf9c8-b624-4ab3-ba2f-8e8f016c639f")
-		(property "Reference" "SWPushReset"
+		(property "Reference" "SWPushReset1"
 			(at 116.84 95.25 0)
 			(effects
 				(font
@@ -5249,7 +5523,7 @@
 		(instances
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "SWPushReset")
+					(reference "SWPushReset1")
 					(unit 1)
 				)
 			)
@@ -5283,7 +5557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 27.94 36.83 0)
 			(effects
 				(font
