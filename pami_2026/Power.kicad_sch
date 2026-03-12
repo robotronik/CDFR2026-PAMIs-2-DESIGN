@@ -4742,7 +4742,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 156.21 74.93 90)
 			(effects
 				(font
@@ -5329,7 +5329,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 224.79 74.93 90)
 			(effects
 				(font
