@@ -4766,74 +4766,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 138.43 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1271a2c8-189d-4720-a373-cd8e8ee2ffd6")
-		(property "Reference" "C13"
-			(at 138.43 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uF"
-			(at 138.43 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 142.24 79.0448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 138.43 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "acb8e39a-5110-43ac-b083-33e77216573d")
-		)
-		(pin "1"
-			(uuid "88fba877-4e6c-4c0f-bb3a-754aada672dd")
-		)
-		(instances
-			(project "pami_2026"
-				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/ed527990-c321-4ebf-9ae6-9a3c892317c7"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Generic-50:D,Zener,IEC")
 		(at 147.32 43.18 180)
 		(unit 1)
@@ -4993,74 +4925,6 @@
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/ed527990-c321-4ebf-9ae6-9a3c892317c7"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 201.93 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d83779f-6fc0-4ae2-8974-2aeeabcefcde")
-		(property "Reference" "C15"
-			(at 201.93 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uF"
-			(at 201.93 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 205.74 79.0448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "379e9939-0134-40dd-be28-2d3f94bcf221")
-		)
-		(pin "1"
-			(uuid "4aa49de0-dc6b-44c6-9035-b10a5abff026")
-		)
-		(instances
-			(project "pami_2026"
-				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/ed527990-c321-4ebf-9ae6-9a3c892317c7"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5228,6 +5092,74 @@
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/ed527990-c321-4ebf-9ae6-9a3c892317c7"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 138.43 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37bac6d7-b117-408e-a94a-75ac678bee8d")
+		(property "Reference" "C13"
+			(at 139.319 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uF"
+			(at 139.319 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4f3ebf2-ca12-4922-95ce-49c4784dc236")
+		)
+		(pin "1"
+			(uuid "0379fce3-c070-4995-af02-261f2afc1749")
+		)
+		(instances
+			(project ""
+				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/ed527990-c321-4ebf-9ae6-9a3c892317c7"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6571,6 +6503,74 @@
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/ed527990-c321-4ebf-9ae6-9a3c892317c7"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 201.93 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc37d33c-c45c-477a-ae82-67acd6d00875")
+		(property "Reference" "C15"
+			(at 202.819 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uF"
+			(at 202.819 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 201.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eefba7b1-7ff3-4907-bb69-fbd80f06ad13")
+		)
+		(pin "1"
+			(uuid "13443910-9839-4d83-b14c-21a24b24e861")
+		)
+		(instances
+			(project "pami_2026"
+				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/ed527990-c321-4ebf-9ae6-9a3c892317c7"
+					(reference "C15")
 					(unit 1)
 				)
 			)
