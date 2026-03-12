@@ -4509,7 +4509,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20K"
 			(at 36.83 114.2999 0)
 			(effects
 				(font
@@ -4714,7 +4714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 29.21 125.7299 0)
 			(effects
 				(font
@@ -5409,7 +5409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
 			(at 103.632 111.76 90)
 			(effects
 				(font
@@ -6180,7 +6180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
 			(at 167.132 111.76 90)
 			(effects
 				(font
@@ -6397,7 +6397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
 			(at 112.522 111.76 90)
 			(effects
 				(font
@@ -6604,7 +6604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
 			(at 176.022 111.76 90)
 			(effects
 				(font
@@ -6665,7 +6665,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 36.83 125.7299 0)
 			(effects
 				(font
@@ -7311,7 +7311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
 			(at 141.478 114.3 90)
 			(effects
 				(font
@@ -7450,7 +7450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
 			(at 204.978 114.3 90)
 			(effects
 				(font
