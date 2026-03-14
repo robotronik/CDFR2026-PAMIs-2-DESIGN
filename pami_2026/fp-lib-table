@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lib")(type "KiCad")(uri "Z:/#Etude/Ecole d'ingé/Robotronik/CDFR2026/CDFR2026-PAMIs-2-DESIGN/lib.pretty")(options "")(descr ""))
+)
