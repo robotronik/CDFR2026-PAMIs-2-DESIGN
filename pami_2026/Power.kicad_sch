@@ -5330,16 +5330,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 204.47 36.83 180)
+		(at 204.47 36.83 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "377019b5-c256-42cb-99a0-dfbab7b4dbe4")
 		(property "Reference" "C19"
-			(at 208.28 36.4489 0)
+			(at 208.28 37.2111 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5348,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 208.28 38.9889 0)
+			(at 208.28 34.6711 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5357,7 @@
 			)
 		)
 		(property "Footprint" "lib:CAP_EEETC1C101V"
-			(at 203.5048 33.02 0)
+			(at 203.5048 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,16 +5400,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 140.97 74.93 270)
+		(at 140.97 74.93 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37bac6d7-b117-408e-a94a-75ac678bee8d")
 		(property "Reference" "C13"
-			(at 141.859 67.31 90)
+			(at 140.081 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5417,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 141.859 69.85 90)
+			(at 140.081 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +5425,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Capacitor:Panasonic_F"
-			(at 137.16 75.8952 0)
+			(at 144.78 75.8952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,16 +7112,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 204.47 74.93 270)
+		(at 204.47 74.93 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cc37d33c-c45c-477a-ae82-67acd6d00875")
 		(property "Reference" "C15"
-			(at 205.359 67.31 90)
+			(at 203.581 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +7129,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 205.359 69.85 90)
+			(at 203.581 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7137,7 +7137,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Capacitor:Panasonic_F"
-			(at 200.66 75.8952 0)
+			(at 208.28 75.8952 0)
 			(show_name yes)
 			(effects
 				(font
