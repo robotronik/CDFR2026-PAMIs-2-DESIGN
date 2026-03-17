@@ -6562,7 +6562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "826e6ea5-546c-4253-a7f2-11b5fb326de8")
-		(property "Reference" "C_BATT"
+		(property "Reference" "C_BATT1"
 			(at 139.065 21.59 0)
 			(effects
 				(font
@@ -6623,7 +6623,7 @@
 		(instances
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/ed527990-c321-4ebf-9ae6-9a3c892317c7"
-					(reference "C_BATT")
+					(reference "C_BATT1")
 					(unit 1)
 				)
 			)
@@ -6883,7 +6883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef35d92-c938-4d95-9095-cca90054030b")
-		(property "Reference" "BAU"
+		(property "Reference" "BAU1"
 			(at 158.75 20.9549 90)
 			(effects
 				(font
@@ -6946,7 +6946,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/ed527990-c321-4ebf-9ae6-9a3c892317c7"
-					(reference "BAU")
+					(reference "BAU1")
 					(unit 1)
 				)
 			)

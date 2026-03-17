@@ -2051,7 +2051,7 @@
 	(text_box "Moteurs DC\n"
 		(exclude_from_sim no)
 		(at 93.98 15.24 0)
-		(size 64.77 26.67)
+		(size 71.12 26.67)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3105,7 +3105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "195e1bc4-110a-4331-a167-0e11691cf7f8")
-		(property "Reference" "D3"
+		(property "Reference" "S_5V"
 			(at 88.9 105.7274 90)
 			(effects
 				(font
@@ -3177,7 +3177,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "D3")
+					(reference "S_5V")
 					(unit 1)
 				)
 			)
@@ -3422,20 +3422,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "323803b5-0bbb-4d2c-90ea-157b5d0c5dce")
-		(property "Reference" "J6"
-			(at 148.59 40.64 0)
+		(property "Reference" "DC_B"
+			(at 151.13 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 148.59 38.1 0)
+			(at 151.13 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
@@ -3504,7 +3506,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "J6")
+					(reference "DC_B")
 					(unit 1)
 				)
 			)
@@ -3649,7 +3651,7 @@
 		(at 85.09 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "51e3507f-d67a-4370-99a6-af2cce0c332f")
@@ -3727,7 +3729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63d96a9f-707f-40f4-8f29-b5c47b7efef9")
-		(property "Reference" "D4"
+		(property "Reference" "S_BATT"
 			(at 99.06 105.7274 90)
 			(effects
 				(font
@@ -3799,7 +3801,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "D4")
+					(reference "S_BATT")
 					(unit 1)
 				)
 			)
@@ -3810,7 +3812,7 @@
 		(at 105.41 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "64c0c55f-b25c-454f-97ae-bbbc5fa22152")
@@ -3955,7 +3957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68ea323f-e44c-4318-8c7e-34963b67ca12")
-		(property "Reference" "J10"
+		(property "Reference" "SW_TEAM"
 			(at 77.47 31.1149 90)
 			(effects
 				(font
@@ -4018,7 +4020,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "J10")
+					(reference "SW_TEAM")
 					(unit 1)
 				)
 			)
@@ -4096,7 +4098,7 @@
 		(at 95.25 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6cc7a2fc-6ed5-4d66-a51d-cbe5f1170c33")
@@ -4308,20 +4310,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "775fa157-73a2-4aa5-8ea2-ac8552bc2610")
-		(property "Reference" "J5"
-			(at 118.11 40.64 0)
+		(property "Reference" "DC_A"
+			(at 120.65 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 118.11 38.1 0)
+			(at 120.65 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
@@ -4390,7 +4394,7 @@
 		(instances
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "J5")
+					(reference "DC_A")
 					(unit 1)
 				)
 			)
@@ -4406,7 +4410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bd71bde-91c6-4e36-9ed6-9061aca2b758")
-		(property "Reference" "D6"
+		(property "Reference" "S_ESP"
 			(at 109.22 105.7274 90)
 			(effects
 				(font
@@ -4478,7 +4482,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "D6")
+					(reference "S_ESP")
 					(unit 1)
 				)
 			)
@@ -4494,7 +4498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2491dd-67b5-496f-8e71-52926fde4540")
-		(property "Reference" "J8"
+		(property "Reference" "US"
 			(at 34.29 26.6699 0)
 			(effects
 				(font
@@ -4563,7 +4567,7 @@
 		(instances
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "J8")
+					(reference "US")
 					(unit 1)
 				)
 			)
@@ -5188,7 +5192,7 @@
 		(at 73.66 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b13f612b-c5f2-48b5-a29a-f99ee7de1336")
@@ -5332,7 +5336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a80991-4972-4c39-92ff-a8b348686704")
-		(property "Reference" "J4"
+		(property "Reference" "SERVO_2"
 			(at 36.83 105.4099 0)
 			(effects
 				(font
@@ -5398,7 +5402,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "J4")
+					(reference "SERVO_2")
 					(unit 1)
 				)
 			)
@@ -5414,7 +5418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c067ec8c-ee24-4736-b34c-deb125927dfa")
-		(property "Reference" "J3"
+		(property "Reference" "SERVO_1"
 			(at 36.83 88.8999 0)
 			(effects
 				(font
@@ -5480,7 +5484,7 @@
 		(instances
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "J3")
+					(reference "SERVO_1")
 					(unit 1)
 				)
 			)
@@ -5998,7 +6002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f60c359d-daca-4fd4-b0aa-236fc4ad27cb")
-		(property "Reference" "J7"
+		(property "Reference" "UART"
 			(at 68.58 54.6099 0)
 			(effects
 				(font
@@ -6067,7 +6071,7 @@
 		(instances
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "J7")
+					(reference "UART")
 					(unit 1)
 				)
 			)
@@ -6083,7 +6087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f64281ee-5ea2-4903-9584-2c6ace2b7da8")
-		(property "Reference" "J2"
+		(property "Reference" "TEAM_RGB"
 			(at 29.21 68.58 90)
 			(effects
 				(font
@@ -6147,7 +6151,7 @@
 		(instances
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "J2")
+					(reference "TEAM_RGB")
 					(unit 1)
 				)
 			)
@@ -6258,7 +6262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fefaef75-fd13-4528-9317-415317253a42")
-		(property "Reference" "D2"
+		(property "Reference" "S_3.3V"
 			(at 77.47 105.7274 90)
 			(effects
 				(font
@@ -6330,7 +6334,7 @@
 		(instances
 			(project ""
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "D2")
+					(reference "S_3.3V")
 					(unit 1)
 				)
 			)
