@@ -2871,6 +2871,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22548"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de311370-7cf1-4003-9c13-cddca970c177")
 		)
@@ -3150,6 +3159,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C965799"
+			(at 85.09 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55c64d0d-1f12-4421-a4da-76f1a14d1c72")
 		)
@@ -3229,6 +3247,15 @@
 		)
 		(property "Mfg Part#" "679-2384-2-ND"
 			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C967701"
+			(at 99.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,6 +3467,15 @@
 		)
 		(property "PROD_ID" "CONN-10203"
 			(at 148.844 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C37208"
+			(at 148.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,6 +3696,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 85.09 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "572a41a1-6745-4d41-a14a-b12b7e9c8d66")
 		)
@@ -3736,6 +3781,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C965799"
+			(at 95.25 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1a633836-1b76-49e2-b7d5-1d0a61b38708")
 		)
@@ -3796,6 +3850,15 @@
 		)
 		(property "Description" "test point"
 			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 105.41 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,6 +4000,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C32713268"
+			(at 76.2 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bd2788c-f569-45fa-9afc-1ea3bb01f7df")
 		)
@@ -4064,6 +4136,15 @@
 		)
 		(property "Description" "test point"
 			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 95.25 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,6 +4360,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C37208"
+			(at 118.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "55155726-f5ae-44b1-a3c6-ccb0235f6b72")
 		)
@@ -4370,6 +4460,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C965799"
+			(at 105.41 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e209f47-9f17-4ae6-a80d-c2425212bacb")
 		)
@@ -4432,6 +4531,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 33.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42431808"
 			(at 33.02 29.21 0)
 			(effects
 				(font
@@ -4575,6 +4683,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22548"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -5118,6 +5235,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 73.66 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e316b86-dde3-41e3-8bf5-006c601949f7")
 		)
@@ -5251,6 +5377,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C32713269"
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "218b6dd7-a41a-4da3-a2da-d864aa67a285")
 		)
@@ -5316,6 +5451,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32713269"
 			(at 35.56 90.17 0)
 			(effects
 				(font
@@ -5664,6 +5808,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4045076"
+			(at 73.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b602509a-9576-4f30-bcb6-9ff9d3ecb106")
 		)
@@ -5724,6 +5877,15 @@
 			)
 		)
 		(property "Description" "reed switch"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32713268"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -5802,6 +5964,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C114662"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af7e2b3f-04e2-4121-9f40-b73d7d427279")
 		)
@@ -5864,6 +6035,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42431808"
 			(at 67.31 57.15 0)
 			(effects
 				(font
@@ -5939,6 +6119,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32713269"
+			(at 29.21 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,6 +6224,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C967701"
+			(at 99.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c0cf189-8ac8-4a45-8192-c07c1da90811")
 		)
@@ -6107,6 +6305,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965799"
+			(at 73.66 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)

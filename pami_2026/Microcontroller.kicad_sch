@@ -2205,6 +2205,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22548"
+			(at 198.12 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fff57c07-256f-416d-88b0-2ec2df7e926a")
 		)
@@ -2266,6 +2275,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 115.57 67.31 0)
 			(effects
 				(font
@@ -2609,6 +2627,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "036d0192-d33a-4644-b1cb-047807df3783")
 		)
@@ -2812,6 +2839,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 97.79 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "935fe2ff-9923-4ccc-9922-0c32557ae748")
 		)
@@ -2880,6 +2916,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C602037"
+			(at 154.94 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "979e74ed-397d-4ac7-9fab-52c2e88692d2")
 		)
@@ -2940,6 +2985,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 154.94 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,6 +3070,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b34c5050-239d-436a-b71b-2def7d8e2db1")
 		)
@@ -3083,6 +3146,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 129.54 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d833c2c-717a-4d26-a41e-5ae911730579")
 		)
@@ -3143,6 +3215,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105576"
+			(at 198.12 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,6 +3368,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 105.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "799b2bc7-e841-41e6-bf9a-21e0fbb7b888")
 		)
@@ -3349,6 +3439,15 @@
 			)
 		)
 		(property "Description" "ESP32-WROOM-32E integrates ESP32-D0WD-V3, with higher stability and safety performance."
+			(at 148.59 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C701343"
 			(at 148.59 106.68 0)
 			(effects
 				(font
