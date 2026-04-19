@@ -89,6 +89,96 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 132.08 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168a1d37-90c1-4cdb-b576-16e52b91200e")
+	)
+	(wire
+		(pts
+			(xy 161.29 97.79) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfff68e-dfd6-4204-95a3-d5b2eb7eaa58")
+	)
+	(wire
+		(pts
+			(xy 161.29 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ca2f6f-c63b-4e03-adab-82a0db2dc0d1")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb456f9-83f1-40d6-995b-3417365d06ed")
+	)
+	(wire
+		(pts
+			(xy 161.29 95.25) (xy 166.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662487c3-4df6-4595-8e3b-ad2a4455ff19")
+	)
+	(wire
+		(pts
+			(xy 161.29 92.71) (xy 166.37 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e4ec08-1fa9-4697-9597-1545d159f4e1")
+	)
+	(wire
+		(pts
+			(xy 161.29 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cae4d34-0a14-46b9-b828-4903539541d4")
+	)
+	(wire
+		(pts
+			(xy 161.29 90.17) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cd6e53-1466-450f-80de-35097b4cb3f2")
+	)
+	(wire
+		(pts
+			(xy 161.29 102.87) (xy 166.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4eee7f3-00a5-46d4-a80c-9450a484b5e8")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 15.24 187.96 0)
@@ -382,8 +472,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 50.8)
-		(size 25.4 21.59)
+		(at 132.08 83.82)
+		(size 29.21 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -398,7 +488,7 @@
 		)
 		(uuid "56f8c084-7953-4857-a452-d40cb21fa6ff")
 		(property "Sheetname" "Microcontroller"
-			(at 114.3 50.0884 0)
+			(at 132.08 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,12 +497,102 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 114.3 72.9746 0)
+			(at 132.08 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BATTERY_LEVEL" input
+			(at 132.08 87.63 180)
+			(uuid "11d6e081-81c3-42c7-8693-e58ce160b05f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_A1" output
+			(at 161.29 87.63 0)
+			(uuid "50ecf7a5-bc33-46ef-a364-3bc687cf0f9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_A2" output
+			(at 161.29 90.17 0)
+			(uuid "7963d898-8778-4304-95fb-48e6440aefd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_B1" output
+			(at 161.29 92.71 0)
+			(uuid "eaed6c67-cebc-4737-82e1-711dc3f7b742")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_B2" output
+			(at 161.29 95.25 0)
+			(uuid "157886bb-6a70-4827-bc26-94785365280f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_A1" input
+			(at 161.29 97.79 0)
+			(uuid "87a1513f-07ad-4c22-b86a-63dbc3a7693c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_A2" input
+			(at 161.29 100.33 0)
+			(uuid "52fedee3-f0f5-4470-8823-9f0582ee3ef8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_B1" input
+			(at 161.29 102.87 0)
+			(uuid "0a3389d5-7d6d-442a-a343-27f98096f6ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL_B2" input
+			(at 161.29 105.41 0)
+			(uuid "72e778fd-ee3b-448a-962f-b8d14421f825")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -424,8 +604,8 @@
 		)
 	)
 	(sheet
-		(at 152.4 50.8)
-		(size 25.4 21.59)
+		(at 166.37 83.82)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -440,7 +620,7 @@
 		)
 		(uuid "bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe")
 		(property "Sheetname" "Actuators, Sensors, Utility"
-			(at 152.4 50.0884 0)
+			(at 166.37 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,12 +629,92 @@
 			)
 		)
 		(property "Sheetfile" "asu.kicad_sch"
-			(at 152.4 72.9746 0)
+			(at 166.37 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DC_A1" input
+			(at 166.37 87.63 180)
+			(uuid "baf29b0c-dd36-4ee5-bba7-b69be133f518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_A2" input
+			(at 166.37 90.17 180)
+			(uuid "7ef91fb1-3c7c-4051-b839-5878a0363cad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_B1" input
+			(at 166.37 92.71 180)
+			(uuid "13e424c9-900b-4eba-b1ee-db003dd25e45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_B2" input
+			(at 166.37 95.25 180)
+			(uuid "97a870d6-52e0-45a3-9641-27852e614f27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_A1" output
+			(at 166.37 97.79 180)
+			(uuid "8d672e38-5684-46d7-b4f3-82db0f0fd7b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_A2" output
+			(at 166.37 100.33 180)
+			(uuid "2abe121f-fd0c-416c-876d-8191295590f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_B1" output
+			(at 166.37 102.87 180)
+			(uuid "afe87528-6722-4fe8-8c07-9e2757150059")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL_B2" output
+			(at 166.37 105.41 180)
+			(uuid "44107fae-c1b9-4431-a2d7-164ac650448f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -466,7 +726,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 50.8)
+		(at 101.6 83.82)
 		(size 25.4 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -482,7 +742,7 @@
 		)
 		(uuid "ed527990-c321-4ebf-9ae6-9a3c892317c7")
 		(property "Sheetname" "Power"
-			(at 76.2 50.0884 0)
+			(at 101.6 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,12 +751,22 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 76.2 72.9746 0)
+			(at 101.6 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BATTERY_LEVEL" output
+			(at 127 87.63 0)
+			(uuid "b6935481-0450-4cae-baea-ce50777b4fd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
