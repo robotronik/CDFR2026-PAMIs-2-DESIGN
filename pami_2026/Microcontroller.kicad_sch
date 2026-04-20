@@ -4766,7 +4766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68ea323f-e44c-4318-8c7e-34963b67ca12")
-		(property "Reference" "SW_TEAM"
+		(property "Reference" "SW_TEAM1"
 			(at 87.63 158.1149 90)
 			(effects
 				(font
@@ -4829,7 +4829,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/56f8c084-7953-4857-a452-d40cb21fa6ff"
-					(reference "SW_TEAM")
+					(reference "SW_TEAM1")
 					(unit 1)
 				)
 			)
@@ -5058,7 +5058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2491dd-67b5-496f-8e71-52926fde4540")
-		(property "Reference" "US"
+		(property "Reference" "US1"
 			(at 233.68 64.7699 0)
 			(effects
 				(font
@@ -5127,7 +5127,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/56f8c084-7953-4857-a452-d40cb21fa6ff"
-					(reference "US")
+					(reference "US1")
 					(unit 1)
 				)
 			)
@@ -6493,7 +6493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f60c359d-daca-4fd4-b0aa-236fc4ad27cb")
-		(property "Reference" "UART"
+		(property "Reference" "UART1"
 			(at 134.62 38.0999 0)
 			(effects
 				(font
@@ -6562,7 +6562,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/56f8c084-7953-4857-a452-d40cb21fa6ff"
-					(reference "UART")
+					(reference "UART1")
 					(unit 1)
 				)
 			)
@@ -6578,7 +6578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f64281ee-5ea2-4903-9584-2c6ace2b7da8")
-		(property "Reference" "TEAM_RGB"
+		(property "Reference" "TEAM_RGB1"
 			(at 220.98 102.87 90)
 			(effects
 				(font
@@ -6643,7 +6643,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/56f8c084-7953-4857-a452-d40cb21fa6ff"
-					(reference "TEAM_RGB")
+					(reference "TEAM_RGB1")
 					(unit 1)
 				)
 			)

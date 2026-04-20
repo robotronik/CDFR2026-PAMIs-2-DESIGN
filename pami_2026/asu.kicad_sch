@@ -2633,7 +2633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "195e1bc4-110a-4331-a167-0e11691cf7f8")
-		(property "Reference" "S_5V"
+		(property "Reference" "S_5V2"
 			(at 78.74 101.9174 90)
 			(effects
 				(font
@@ -2705,7 +2705,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "S_5V")
+					(reference "S_5V2")
 					(unit 1)
 				)
 			)
@@ -2857,7 +2857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "323803b5-0bbb-4d2c-90ea-157b5d0c5dce")
-		(property "Reference" "DC_B"
+		(property "Reference" "DC_B1"
 			(at 203.2 130.8099 0)
 			(effects
 				(font
@@ -2941,7 +2941,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "DC_B")
+					(reference "DC_B1")
 					(unit 1)
 				)
 			)
@@ -3259,7 +3259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63d96a9f-707f-40f4-8f29-b5c47b7efef9")
-		(property "Reference" "S_BATT"
+		(property "Reference" "S_BATT1"
 			(at 88.9 101.9174 90)
 			(effects
 				(font
@@ -3331,7 +3331,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "S_BATT")
+					(reference "S_BATT1")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "775fa157-73a2-4aa5-8ea2-ac8552bc2610")
-		(property "Reference" "DC_A"
+		(property "Reference" "DC_A1"
 			(at 172.72 130.8099 0)
 			(effects
 				(font
@@ -3648,7 +3648,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "DC_A")
+					(reference "DC_A1")
 					(unit 1)
 				)
 			)
@@ -3664,7 +3664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bd71bde-91c6-4e36-9ed6-9061aca2b758")
-		(property "Reference" "S_ESP"
+		(property "Reference" "S_ESP1"
 			(at 99.06 101.9174 90)
 			(effects
 				(font
@@ -3736,7 +3736,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "S_ESP")
+					(reference "S_ESP1")
 					(unit 1)
 				)
 			)
@@ -5705,7 +5705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fefaef75-fd13-4528-9317-415317253a42")
-		(property "Reference" "S_3.3V"
+		(property "Reference" "S_3.3V1"
 			(at 67.31 101.9174 90)
 			(effects
 				(font
@@ -5777,7 +5777,7 @@
 		(instances
 			(project "pami_2026"
 				(path "/2e16a05b-e8ca-4fff-9c3e-5c880745daa6/bb7fbca0-80fe-418e-a09d-cb4c86ee0cfe"
-					(reference "S_3.3V")
+					(reference "S_3.3V1")
 					(unit 1)
 				)
 			)
